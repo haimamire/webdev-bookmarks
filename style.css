@@ -1,56 +1,39 @@
 :root {
-  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 body {
-  background-color: rgb(19, 18, 18);
-  font-family: var(--system-ui);
-  color: rgb(239, 237, 237);
-  margin: 50px;
+    background-color: rgb(19, 18, 18);
+    font-family: var(--system-ui);
+    color: rgb(239, 237, 237);
+    margin: 50px;
 }
 dl.main-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
 }
 dl dt,
 dl dl {
-  flex: 1 1 20%;
-  background-color: rgb(36, 35, 35);
-  border-radius: 10px;
+    flex: 1 1 20%;
+    background-color: rgb(36, 35, 35);
+    border-radius: 10px;
 }
 dl.main-container > dt {
-  padding: 20px 30px;
-  max-height: 70vh;
-  overflow: auto;
-  scrollbar-width: thin;
-  scrollbar-color: gray black;
+    padding: 20px 30px;
+    max-height: 70vh;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: gray black;
 }
 dl.sub-container > dt {
-  margin: 5px 0;
+    margin: 5px 0;
 }
-a {
-  text-decoration: none;
-  color: rgb(206, 154, 0);
-  padding: 5px 0;
+a { 
+    text-decoration: none;
+    color: rgb(206, 154, 0);
+    padding: 5px 0;
 }
 hr {
-  border-color: gray;
-}
-
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-}
-
-.header > img {
-  max-width: 150px;
-}
-
-h1 {
-  margin: 0;
-  padding: 50px;
-  text-justify: center;
+	border-color: gray;
 }
